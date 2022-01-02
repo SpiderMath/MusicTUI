@@ -1,0 +1,24 @@
+{
+  "name": "musictui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiderMath/MusicTUI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SpiderMath/MusicTUI/issues"
+  },
+  "homepage": "https://github.com/SpiderMath/MusicTUI#readme",
+  "dependencies": {
+    "ffmpeg-static": "^4.4.0",
+    "fuse.js": "^6.5.3"
+  }
+}
