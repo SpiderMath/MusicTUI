@@ -5,7 +5,7 @@ const Fuse = require('fuse.js');
 const music = readdirSync(directory)
 	.map((fileName) => {
 		fileName = fileName.slice(0, -4);
-		const [artist, ...songName] = fileName.split('-');
+		const [artist, ...songName] = fileName.split('-').map(str => str.trim());
 		return {
 			artist,
 			songTitle: songName.join(' '),
